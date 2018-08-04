@@ -8,5 +8,5 @@ import dataReader
 comics = dataReader.getComics()
 if comics is not None:
     for c in comics:
-        print(c)
+        print(c["title"] + " " + c["number"])
         
