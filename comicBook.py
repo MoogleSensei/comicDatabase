@@ -1,8 +1,6 @@
-import sys
-sys.path.append("C:\\users\\millersm\\mu_code")
-# sys.path.append("C:\\users\\millersm\\mu_code\\data")
-# sys.path.append("C:\\users\\millersm\\mu_code\\modules")
-
+# Comic Book Database
+# Not sure what we're gonna do here yet.
+# Right now, just read our simple database (in csv format) and spit out some junk.
 import dataReader
 
 comics = dataReader.getComics()
